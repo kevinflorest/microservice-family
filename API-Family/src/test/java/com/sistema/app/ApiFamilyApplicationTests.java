@@ -25,22 +25,22 @@ public class ApiFamilyApplicationTests {
 	public void contextLoads() {
 	}
 	
-	@Test
-	public void listFamilies() {
-		client.get().uri("/api/family/")
-		.accept(MediaType.APPLICATION_JSON_UTF8)
-		.exchange()
-		.expectStatus().isOk()
-		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
-		.expectBodyList(Family.class).consumeWith(response -> {
-			List<Family> families = response.getResponseBody();
-			
-			families.forEach(p -> {
-				System.out.println(p.getId());
-			});
-			
-			Assertions.assertThat(families.size()>0).isTrue();
-		});;
-	}
+//	@Test
+//	public void listFamilies() {
+//		client.get().uri("/api/family/")
+//		.accept(MediaType.APPLICATION_JSON_UTF8)
+//		.exchange()
+//		.expectStatus().isOk()
+//		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
+//		.expectBodyList(Family.class).consumeWith(response -> {
+//			List<Family> families = response.getResponseBody();
+//			
+//			families.forEach(p -> {
+//				System.out.println(p.getId());
+//			});
+//			
+//			Assertions.assertThat(families.size()>0).isTrue();
+//		});;
+//	}
 	
 }

@@ -16,10 +16,8 @@ public class ApiFamilyApplicationTests {
 	
 	
 	public ApiFamilyApplicationTests() {
+		// TODO Auto-generated constructor stub
 	}
-//	
-//	@Test
-//	public void contextLoads() {
-//	}
+
 
 }

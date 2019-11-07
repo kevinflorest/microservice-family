@@ -22,10 +22,6 @@ public class ApiFamilyApplicationTests {
 	
 	
 	@Test
-	public void contextLoads() {
-	}
-
-	@Test
 	public void listFamilies() {
 		client.get().uri("/api/family/")
 		.accept(MediaType.APPLICATION_JSON_UTF8)

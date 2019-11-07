@@ -17,9 +17,9 @@ public class ApiFamilyApplicationTests {
 	
 	public ApiFamilyApplicationTests() {
 	}
-	
-	@Test
-	public void contextLoads() {
-	}
+//	
+//	@Test
+//	public void contextLoads() {
+//	}
 
 }

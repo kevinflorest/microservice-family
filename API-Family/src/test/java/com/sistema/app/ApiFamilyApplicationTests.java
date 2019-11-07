@@ -14,6 +14,10 @@ public class ApiFamilyApplicationTests {
 	@Autowired
 	private WebTestClient client; 
 	
+	
+	public ApiFamilyApplicationTests() {
+	}
+	
 	@Test
 	public void contextLoads() {
 	}

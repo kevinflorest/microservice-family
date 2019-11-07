@@ -20,6 +20,10 @@ public class ApiFamilyApplicationTests {
 	@Autowired
 	private WebTestClient client; 
 	
+
+	@Test
+	public void contextLoads() {
+	}
 	
 	@Test
 	public void listFamilies() {

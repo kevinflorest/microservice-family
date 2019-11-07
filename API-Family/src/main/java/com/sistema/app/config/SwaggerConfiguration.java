@@ -17,8 +17,8 @@ public class SwaggerConfiguration {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
-                        .description("example api")
-                        .title("example api")
+                        .description("API Family")
+                        .title("API Family")
                         .version("1.0.0")
                         .build())
                 .select()
